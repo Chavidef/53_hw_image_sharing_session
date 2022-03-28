@@ -1,0 +1,20 @@
+﻿@model ImageViewModel
+
+<div class="row">
+    <div class="col-md-8 offset-md-2 jumbotron">
+        <h3>
+            Thank you for uploading your image,
+            here's the link to share with your friends:
+
+            <br />
+            <br />
+            <a href="http://localhost:16826/home/viewimage?id=@Model.Id">
+                http://localhost:16826/home/viewimage?id=@Model.Id
+            </a>
+            <br />
+            <br />
+
+            The password is "@Model.Password"
+        </h3>
+    </div>
+</div>

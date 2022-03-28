@@ -1,0 +1,36 @@
+﻿@model ImageViewModel
+
+@if (Model.CorrectPassword && Model.HasAccess)
+{
+    <div class="container">
+        <main role="main" class="pb-3">
+
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <img src="/uploads/@Model.ImagePath" style="width: 800px;" />
+                    <br />
+                    <h3>Views: @Model.Views</h3>
+                </div>
+            </div>
+
+        </main>
+    </div>
+}
+
+else
+{
+    <div class="row">
+        <div class="col-md-6 offset-md-3 jumbotron">
+           
+                <h3 class="alert-danger">@Model.Message</h3>
+            
+            <h4>Please enter the password for this image:</h4>
+            <form method="post" action="/home/viewimage">
+                <input type="hidden" name="id" value="@Model.Id" />
+                <input type="password" class="form-control" placeholder="Password" name="password" />
+                <br />
+                <button class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+}

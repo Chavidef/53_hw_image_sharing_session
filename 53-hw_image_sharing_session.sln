@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "53-hw_image_sharing_session", "53-hw_image_sharing_session\53-hw_image_sharing_session.csproj", "{AB425DD5-6D57-4C9D-A033-2CCE04C601D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "53-hw_image_sharing_session.Data", "ImagesRepository\53-hw_image_sharing_session.Data.csproj", "{A6881AB1-190C-46A6-8C3B-D9E8C6D58016}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB425DD5-6D57-4C9D-A033-2CCE04C601D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB425DD5-6D57-4C9D-A033-2CCE04C601D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB425DD5-6D57-4C9D-A033-2CCE04C601D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB425DD5-6D57-4C9D-A033-2CCE04C601D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6881AB1-190C-46A6-8C3B-D9E8C6D58016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6881AB1-190C-46A6-8C3B-D9E8C6D58016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6881AB1-190C-46A6-8C3B-D9E8C6D58016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6881AB1-190C-46A6-8C3B-D9E8C6D58016}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ADBE5ED-622A-485F-8485-DF8D09D7306D}
+	EndGlobalSection
+EndGlobal
